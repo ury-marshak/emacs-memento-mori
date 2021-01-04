@@ -23,6 +23,8 @@
 ;;
 ;;; Code:
 
+(eval-when-compile (require 'cl-macs))
+
 ;;;###autoload
 (defgroup memento-mori
   '((memento-mori-birth-date custom-variable))
